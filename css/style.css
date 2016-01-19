@@ -46,4 +46,54 @@ body#bhogan article h2 {font-size: 1.25em }
 /* add some indentation to articles on wider screens */
 @media only screen and (min-width: 960px) {
   body#bhogan article {margin-left: 1em; }
+  
 }
+
+  
+#jstodola > div.container {
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#jstodola a {
+  text-decoration: none;
+  color: rgba(0, 119, 255, 1);
+}
+
+#jstodola a:hover {
+  color: rgba(0, 119, 255, .7);
+}
+
+#jstodola h1 {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+#jstodola h2 {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+#jstodola h3 {
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+#jstodola h4 {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+#jstodola section {
+  border-bottom: 2px solid #999;
+}
+
+#jstodola section > ul > li {
+  list-style: none;
+}
+
