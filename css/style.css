@@ -97,3 +97,81 @@ body#bhogan article h2 {font-size: 1.25em }
   list-style: none;
 }
 
+/* Luke A Chase css for people/lchase1.html -------------------------------- */
+body#lchase1 {
+  background-color: #000;
+  background-color: #DDD;
+  color: #fff;
+  font-family: Arial, Verdana, sans-serif;
+  font-family: Share Tech Mono;
+  font-size: 16px;
+}  
+
+body#lchase1 .wrapper {
+  background-color: #444;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px #000;
+  margin: auto;
+  max-width: 1024px;
+  min-width: 250px;
+}
+
+body#lchase1 header {
+  background-color: #FFF;
+  border: 1px solid #000;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+}
+
+body#lchase1 header h2 {
+  color: #FFF;
+  font-size: 1.25em;
+  text-shadow: 1px 1px 3px #000;
+}
+
+body#lchase1 #logo-chase-luke-a {
+  color: #000;
+  font-size: 5em;
+  margin: 0;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+body#lchase1 #logo-software-dev {
+  left: 10%;
+  position: absolute;
+  top: 0%;
+}
+
+body#lchase1 #logo-mobile-dev {
+  bottom: 0%;
+  position: absolute;
+  right: 10%;
+}
+
+body#lchase1 .resume h2 {
+  border-bottom: 3px solid #FF0;
+}
+
+body#lchase1 .resume h4 {
+  border: 1px solid #FFF;
+  padding: 3px;
+}
+
+body#lchase1 .resume p {
+  font-style: italic;
+  margin-left: 8px;
+}
+
+body#lchase1 footer {
+  border-top: 2px solid #fff;
+  margin: 5px;
+  padding: 4px 0px 2px 0px;
+  text-align: center;
+  text-shadow: 1px 1px 3px #000;
+}
+/* ------------------------------------------------------------------------- */
+
+
