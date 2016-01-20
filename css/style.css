@@ -109,6 +109,7 @@ body#lchase1 {
 
 body#lchase1 a:link, a:active, a:visited, a:hover, a:focus {
   color: #ff0;
+  text-decoration: none;
 }
 
 body#lchase1 div.wrapper {
@@ -179,6 +180,18 @@ body#lchase1 section#resume h4 {
 body#lchase1 section#resume p {
   font-style: italic;
   margin-left: 8px;
+}
+
+body#lchase1 section#backLink {
+  margin: 40px auto 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+body#lchase1 section#backLink a {
+  border: 2px solid #ff0;
+  font-size: 1.5em;
+  padding: 10px;
 }
 
 body#lchase1 footer {
