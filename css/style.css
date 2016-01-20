@@ -160,6 +160,13 @@ body#lchase1 section#resume {
   width: 90%;
 }
 
+body#lchase1 section#resume h1 {
+  font-size: 3em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
 body#lchase1 section#resume h2 {
   border-bottom: 3px solid #FF0;
 }
@@ -177,9 +184,20 @@ body#lchase1 section#resume p {
 body#lchase1 footer {
   border-top: 2px solid #fff;
   margin: 10px;
+  min-height: 20px;
   padding: 10px;
   text-align: center;
   text-shadow: 1px 1px 3px #000;
+}
+
+body#lchase1 footer span#footerLeft {
+  display: block;
+  float: left;
+}
+
+body#lchase1 footer span#footerRight {
+  display: block;
+  float: right;
 }
 /* ------------------------------------------------------------------------- */
 
