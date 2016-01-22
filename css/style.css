@@ -225,12 +225,19 @@ body#lchase1 footer span#footerRight {
   text-decoration: none;
 }
 
-#lmatysik header {
-  text-align: center;
-}
-
 #lmatysik footer {
   text-align: center;
   text-decoration: underline;
 }
 
+#lmatysik header {
+  text-align: center;
+}
+
+#lmatysik section h3 {
+  text-decoration: underline;
+}
+
+#lmatysik section p {
+  margin-left: 40px;
+}
