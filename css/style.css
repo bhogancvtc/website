@@ -247,3 +247,21 @@ body#lchase1 footer span#footerRight {
 #lmatysik section p {
   margin-left: 40px;
 }
+
+/*-------------------*/
+
+#ssteindorf .bold {
+  font-weight:bold;
+}
+
+#ssteindorf section {
+  padding: 0px 2.5%;
+}
+
+#ssteindorf #bio{
+  text-align:justify;
+}
+
+#ssteindorf {
+  font-family: garamond;
+}
