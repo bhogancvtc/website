@@ -225,12 +225,43 @@ body#lchase1 footer span#footerRight {
   text-decoration: none;
 }
 
-#lmatysik header {
-  text-align: center;
-}
-
 #lmatysik footer {
+  margin: 40px;
   text-align: center;
   text-decoration: underline;
 }
 
+#lmatysik header {
+  text-align: center;
+}
+
+#lmatysik article {
+  margin-left: 40px;
+}
+
+#lmatysik section h3 {
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
+#lmatysik section p {
+  margin-left: 40px;
+}
+
+/*-------------------*/
+
+#ssteindorf .bold {
+  font-weight:bold;
+}
+
+#ssteindorf section {
+  padding: 0px 2.5%;
+}
+
+#ssteindorf #bio{
+  text-align:justify;
+}
+
+#ssteindorf {
+  font-family: garamond;
+}
