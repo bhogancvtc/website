@@ -214,4 +214,23 @@ body#lchase1 footer span#footerRight {
 }
 /* ------------------------------------------------------------------------- */
 
+#lmatysik {
+  background-color: #000;
+  color: #008800;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#lmatysik a {
+  color: #008800;
+  text-decoration: none;
+}
+
+#lmatysik header {
+  text-align: center;
+}
+
+#lmatysik footer {
+  text-align: center;
+  text-decoration: underline;
+}
 
