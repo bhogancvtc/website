@@ -49,16 +49,6 @@ body#bhogan article h2 {font-size: 1.25em }
   
 }
 
-  
-#jstodola > div.container {
-  position: relative;
-  font-family: 'Source Sans Pro', sans-serif;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
 
 #jstodola a {
   text-decoration: none;
@@ -67,6 +57,14 @@ body#bhogan article h2 {font-size: 1.25em }
 
 #jstodola a:hover {
   color: rgba(0, 119, 255, .7);
+}
+
+#jstodola > div.container {
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #jstodola h1 {
