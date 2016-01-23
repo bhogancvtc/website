@@ -95,6 +95,52 @@ body#bhogan article h2 {font-size: 1.25em }
   list-style: none;
 }
 
+/* Kelsy J Kaufman CSS for ../people/kkaufman6.html */
+#kkaufman h1, h2, h3, h4, h5, h6 {
+  color: #0cf;
+  font-family: Tahoma, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000fff;
+}
+
+#kaufmanContainer {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+#kkaufman a{
+  color: #ff00ff;
+  margin: 10px;
+}
+
+#kaufmanMedia {
+  width: 300px;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: #000000;
+}
+
+#kaufmanContainer{
+  width: auto;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 3px 3px 6px #000000;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #cccccc;
+}
+
+#kkaufman li {
+  margin-top: 8px;
+  display: list-item;
+  text-align: center;
+}
+
 /* Luke A Chase css for people/lchase1.html -------------------------------- */
 body#lchase1 {
   background-color: #000;
