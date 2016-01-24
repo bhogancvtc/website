@@ -120,12 +120,6 @@ body#bhogan article h2 {font-size: 1.25em }
   text-shadow: 1px 1px 1px #000fff;
 }
 
-#kaufmanContainer {
-  margin: 0 auto;
-  text-align: center;
-  width: 100%;
-}
-
 #kkaufman a{
   color: #ff00ff;
   margin: 10px;
@@ -139,15 +133,14 @@ body#bhogan article h2 {font-size: 1.25em }
 }
 
 #kaufmanContainer{
-  width: auto;
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-  box-shadow: 3px 3px 6px #000000;
   border-width: 2px;
+  border-color: #cccccc;
   border-radius: 3px;
   border-style: solid;
-  border-color: #cccccc;
+  box-shadow: 3px 3px 6px #000000;
+  margin: 5%;
+  text-align: center;
+  width: auto;
 }
 
 #kkaufman li {
