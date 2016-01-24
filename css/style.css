@@ -329,30 +329,40 @@ body#lchase1 footer span#footerRight {
 /* mthalacker1 */
 /* builds on base styles */
 
+#miah{
+  background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/footer_lodyas.png');
+  padding: 20px 50px;  
+}
+
 #wrapper_miah{
+  background-color: white;
+  color: #474747;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 300;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+#miah h1{
+  background-color: white;
+  text-align: center;
+  font-family: Garamond;
+  font-weight: 200;
+  font-size: 3em;
+  letter-spacing: 4px;
+  width: 50%;
+  z-index: 1;
+}
+
+#miah hr{
   position: relative;
+  top: -30px;
 }
-
-#wrapper_miah:after{ 
-  content: "";
-  background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/footer_lodyas.png' repeat);
-  top: 0; 
-  left: 0; 
-  opacity: 0.5; 
-  bottom: 0; 
-  right:0; 
-  position: absolute; 
-  z-index: -1;   
-}
-
 .list_item_miah{
   list-style-type: none; 
 }
 
-#nav_miah{
-  width: 75%;
+#nav_list_miah{
   margin: 0 auto;
 }
 
@@ -361,34 +371,35 @@ body#lchase1 footer span#footerRight {
   list-style-type: none;
 }
 
-#nav_list_miah a{
-  background-color: #ddd;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  color: white;
+#nav_list_miah a,
+#nav_list_miah:visited{
+  background-color: #fff;
+  border: 1px solid #474747;
+  color: #474747;
   display: block;  
-  margin: 5px;
-  padding: 10px;
+  margin: 0 0 20px 40px;
+  padding: 5px 15px;
   text-align: center;
   text-decoration: none;
-  width: 90px;
-  transition: background-color 0.3s ease-out,
-              border-color 0.4s ease-in,
+  transition: border-color 0.4s ease-in,
               color 0.3s ease-out;
+  width: 110px;
 }
 
 #nav_list_miah a:hover,
 #nav_list_miah a:active{
-  background-color: #66d8ed; 
   border: 1px solid #66d8ed;
-  color: black;
-  transition: background-color 0.4s ease-in,
-              border-color 0.4s ease-in,
+  color: #66d8ed; 
+  transition: border-color 0.4s ease-in,
               color 0.4s ease-in;
 }
 
-#nav_list_miah a:visited{
-   color: transparent; 
+#nav_list_miah a:visited:hover{
+   background-color: white; 
+}
+
+.heading_miah a:hover{
+   color: #474747; 
 }
 
 #wrapper_miah article{
