@@ -96,10 +96,25 @@ body#bhogan article h2 {font-size: 1.25em }
 }
 
 /* Kelsy J Kaufman CSS for ../people/kkaufman6.html */
-#kkaufman h1, h2, h3, h4, h5, h6 {
+.kkaufman h1{
   color: #0cf;
   font-family: Tahoma, sans-serif;
-  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000fff;
+}
+
+.kkaufman h2{
+  color: #0cf;
+  font-family: Tahoma, sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000fff;
+}
+
+.kkaufman h3{
+  color: #0cf;
+  font-family: Tahoma, sans-serif;
   letter-spacing: 1px;
   text-align: center;
   text-shadow: 1px 1px 1px #000fff;
