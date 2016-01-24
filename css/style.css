@@ -96,6 +96,9 @@ body#bhogan article h2 {font-size: 1.25em }
 }
 
 /* Kelsy J Kaufman CSS for ../people/kkaufman6.html */
+.kkaufman{
+  background-color: #0cf0cf;
+}
 .kkaufman h1{
   color: #0cf;
   font-family: Tahoma, sans-serif;
@@ -113,46 +116,56 @@ body#bhogan article h2 {font-size: 1.25em }
 }
 
 .kkaufman h3{
+  background-color: #0cf0aa;
+  border-color: #0cf0cf;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 3px;
+  box-shadow: 2px 2px 2px #000000;
   color: #0cf;
   font-family: Tahoma, sans-serif;
   letter-spacing: 1px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   text-shadow: 1px 1px 1px #000fff;
+  width: 50%;
 }
 
-#kaufmanContainer {
-  margin: 0 auto;
-  text-align: center;
-  width: 100%;
-}
-
-#kkaufman a{
+.kkaufman a{
   color: #ff00ff;
   margin: 10px;
 }
 
 #kaufmanMedia {
   width: 300px;
-  margin-left: 25%;
-  margin-right: 25%;
   background-color: #000000;
+  margin: 5%;
+  width: auto;
 }
 
 #kaufmanContainer{
-  width: auto;
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-  box-shadow: 3px 3px 6px #000000;
-  border-width: 2px;
+  background-color: #ffffff;
+  border-color: #cccccc;
   border-radius: 3px;
   border-style: solid;
-  border-color: #cccccc;
+  border-width: 2px;
+  box-shadow: 3px 3px 6px #000000;
+  margin: 5%;
+  text-align: center;
+  width: auto;
+}
+
+#kaufmanInfo{
+  font-family: Tahoma, Sans-Serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 1px #cccccc;
 }
 
 #kkaufman li {
-  margin-top: 8px;
   display: list-item;
+  margin-top: 8px;
   text-align: center;
 }
 
