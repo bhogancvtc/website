@@ -324,3 +324,73 @@ body#lchase1 footer span#footerRight {
 #ssteindorf {
   font-family: garamond;
 }
+
+
+/* mthalacker1 */
+/* builds on base styles */
+
+#wrapper_miah{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  position: relative;
+}
+
+#wrapper_miah:after{ 
+  content: "";
+  background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/footer_lodyas.png' repeat);
+  top: 0; 
+  left: 0; 
+  opacity: 0.5; 
+  bottom: 0; 
+  right:0; 
+  position: absolute; 
+  z-index: -1;   
+}
+
+.list_item_miah{
+  list-style-type: none; 
+}
+
+#nav_miah{
+  width: 75%;
+  margin: 0 auto;
+}
+
+#nav_list_miah li{
+  float: left;
+  list-style-type: none;
+}
+
+#nav_list_miah a{
+  background-color: #ddd;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: white;
+  display: block;  
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 90px;
+  transition: background-color 0.3s ease-out,
+              border-color 0.4s ease-in,
+              color 0.3s ease-out;
+}
+
+#nav_list_miah a:hover,
+#nav_list_miah a:active{
+  background-color: #66d8ed; 
+  border: 1px solid #66d8ed;
+  color: black;
+  transition: background-color 0.4s ease-in,
+              border-color 0.4s ease-in,
+              color 0.4s ease-in;
+}
+
+#nav_list_miah a:visited{
+   color: transparent; 
+}
+
+#wrapper_miah article{
+  clear: both;
+}
