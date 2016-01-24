@@ -127,16 +127,16 @@ body#bhogan article h2 {font-size: 1.25em }
 
 #kaufmanMedia {
   width: 300px;
-  margin-left: 25%;
-  margin-right: 25%;
   background-color: #000000;
+  margin: 5%;
+  width: auto;
 }
 
 #kaufmanContainer{
-  border-width: 2px;
   border-color: #cccccc;
   border-radius: 3px;
   border-style: solid;
+  border-width: 2px;
   box-shadow: 3px 3px 6px #000000;
   margin: 5%;
   text-align: center;
@@ -144,8 +144,8 @@ body#bhogan article h2 {font-size: 1.25em }
 }
 
 #kkaufman li {
-  margin-top: 8px;
   display: list-item;
+  margin-top: 8px;
   text-align: center;
 }
 
