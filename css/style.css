@@ -387,28 +387,28 @@ body#lchase1 footer span#footerRight {
 #nav_list_miah a,
 #nav_list_miah:visited{
   background-color: #fff;
-  border: 1px solid #474747;
-  color: #474747;
+  border: 1px solid #ddd;
+  color: #ddd;
   display: block;  
-  margin: 0 0 20px 40px;
+  font-size: 1.2em;
+  margin: 20px;
   padding: 5px 15px;
   text-align: center;
   text-decoration: none;
   transition: border-color 0.4s ease-in,
+              background-color 0.4s ease-in,
               color 0.3s ease-out;
   width: 110px;
 }
 
 #nav_list_miah a:hover,
 #nav_list_miah a:active{
+  background-color: #66d8ed;
   border: 1px solid #66d8ed;
-  color: #66d8ed; 
+  color: white; 
   transition: border-color 0.4s ease-in,
+              background-color 0.4s ease-in,
               color 0.4s ease-in;
-}
-
-#nav_list_miah a:visited:hover{
-   background-color: white; 
 }
 
 .heading_miah a:hover{
