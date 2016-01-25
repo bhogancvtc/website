@@ -133,13 +133,17 @@ body#bhogan article h2 {font-size: 1.25em }
 }
 
 .kkaufman a{
-  color: #ff00ff;
+  color: #00ffff;
   margin: 10px;
+}
+
+.kaufman a:hover{
+  color: #0000ff;
 }
 
 #kaufmanMedia {
   width: 300px;
-  background-color: #000000;
+  background-color: #0000ff;
   margin: 5%;
   width: auto;
 }
