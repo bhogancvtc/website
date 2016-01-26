@@ -285,12 +285,6 @@ body#lchase1 footer span#footerRight {
   float: right;
 }
 
-body .tsweitzer {
-  background: #add;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 
 
 /* ------------------------------------------------------------------------- */
@@ -345,6 +339,12 @@ body .tsweitzer {
 
 #ssteindorf {
   font-family: garamond;
+}
+
+body .tsweitzer {
+  background: #add;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #triangle-left {
