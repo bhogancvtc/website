@@ -341,8 +341,6 @@ body#lchase1 footer span#footerRight {
   font-family: garamond;
 }
 
-<<<<<<< HEAD
-
 /* mthalacker1 */
 /* builds on base styles */
 
@@ -362,28 +360,19 @@ body#lchase1 footer span#footerRight {
 
 #miah h1{
   background-color: white;
-<<<<<<< HEAD
-  text-align: center;
-  font-family: Garamond;
-  font-weight: 200;
+  font-family: Georgia; 
   font-size: 3em;
+  font-weight: 200;
   letter-spacing: 4px;
+  text-align: center;
   width: 50%;
-  z-index: 1;
 }
 
 #miah hr{
   position: relative;
   top: -30px;
 }
-=======
-  letter-spacing: 4px;
-  text-align: center;
-  font-family: Georgia; 
-  font-weight: 200;
-  font-size: 3em;
-  width: 50%;
-}
+
 
 #miah h2{
   background-color: white; 
@@ -397,7 +386,6 @@ body#lchase1 footer span#footerRight {
   top: -15px;
 }
 
->>>>>>> styles/mthalacker1
 .list_item_miah{
   list-style-type: none; 
 }
@@ -430,11 +418,7 @@ body#lchase1 footer span#footerRight {
 
 #nav_list_miah a:hover,
 #nav_list_miah a:active{
-<<<<<<< HEAD
   background-color: #66d8ed;
-=======
-  background: #66d8ed;
->>>>>>> styles/mthalacker1
   border: 1px solid #66d8ed;
   color: white; 
   transition: border-color 0.4s ease-in,
@@ -448,7 +432,10 @@ body#lchase1 footer span#footerRight {
 
 #wrapper_miah article{
   clear: both;
-=======
+}
+
+/*-----mthalacker1 End----*/
+
 body .tsweitzer {
   background: #add;
   margin-left: auto;
