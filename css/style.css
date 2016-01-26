@@ -347,6 +347,11 @@ body .tsweitzer {
   margin-right: auto;
 }
 
+footer #tsweitzer {
+  font-size: 24px;
+  text-decoration: none;
+}
+
 #triangle-left {
   border-top: 12.5px solid transparent;
   border-right: 25px solid #972727;
