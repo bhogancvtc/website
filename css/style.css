@@ -284,6 +284,9 @@ body#lchase1 footer span#footerRight {
   display: block;
   float: right;
 }
+
+
+
 /* ------------------------------------------------------------------------- */
 
 #lmatysik {
@@ -336,6 +339,12 @@ body#lchase1 footer span#footerRight {
 
 #ssteindorf {
   font-family: garamond;
+}
+
+body .tsweitzer {
+  background: #add;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #triangle-left {
