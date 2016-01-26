@@ -49,16 +49,6 @@ body#bhogan article h2 {font-size: 1.25em }
   
 }
 
-  
-#jstodola > div.container {
-  position: relative;
-  font-family: 'Source Sans Pro', sans-serif;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
 
 #jstodola a {
   text-decoration: none;
@@ -67,6 +57,14 @@ body#bhogan article h2 {font-size: 1.25em }
 
 #jstodola a:hover {
   color: rgba(0, 119, 255, .7);
+}
+
+#jstodola > div.container {
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #jstodola h1 {
@@ -97,13 +95,87 @@ body#bhogan article h2 {font-size: 1.25em }
   list-style: none;
 }
 
+/* Kelsy J Kaufman CSS for ../people/kkaufman6.html */
+.kkaufman{
+  background-color: #0cf0cf;
+}
+.kkaufman h1{
+  color: #0cf;
+  font-family: Tahoma, sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000fff;
+}
+
+.kkaufman h2{
+  color: #0cf;
+  font-family: Tahoma, sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000fff;
+}
+
+.kkaufman h3{
+  background-color: #0cf0aa;
+  border-color: #0cf0cf;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 3px;
+  box-shadow: 2px 2px 2px #000000;
+  color: #0cf;
+  font-family: Tahoma, sans-serif;
+  letter-spacing: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000fff;
+  width: 50%;
+}
+
+.kkaufman a{
+  color: #ff00ff;
+  margin: 10px;
+}
+
+#kaufmanMedia {
+  width: 300px;
+  background-color: #000000;
+  margin: 5%;
+  width: auto;
+}
+
+#kaufmanContainer{
+  background-color: #ffffff;
+  border-color: #cccccc;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 3px 3px 6px #000000;
+  margin: 5%;
+  text-align: center;
+  width: auto;
+}
+
+#kaufmanInfo{
+  font-family: Tahoma, Sans-Serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 1px #cccccc;
+}
+
+#kkaufman li {
+  display: list-item;
+  margin-top: 8px;
+  text-align: center;
+}
+
 /* Luke A Chase css for people/lchase1.html -------------------------------- */
 body#lchase1 {
   background-color: #000;
   background-color: #DDD;
   color: #fff;
   font-family: Arial, Verdana, sans-serif;
-  font-family: Share Tech Mono;
+  font-family: "Share Tech Mono";
   font-size: 16px;
 }  
 
@@ -223,4 +295,165 @@ body .tsweitzer {
 
 /* ------------------------------------------------------------------------- */
 
+#lmatysik {
+  background-color: #000;
+  color: #008800;
+  font-family: 'Roboto Mono', monospace;
+}
 
+#lmatysik a {
+  color: #008800;
+  text-decoration: none;
+}
+
+#lmatysik footer {
+  margin: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#lmatysik header {
+  text-align: center;
+}
+
+#lmatysik article {
+  margin-left: 40px;
+}
+
+#lmatysik section h3 {
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
+#lmatysik section p {
+  margin-left: 40px;
+}
+
+/*-------------------*/
+
+#ssteindorf .bold {
+  font-weight:bold;
+}
+
+#ssteindorf section {
+  padding: 0px 2.5%;
+}
+
+#ssteindorf #bio{
+  text-align:justify;
+}
+
+#ssteindorf {
+  font-family: garamond;
+}
+
+#triangle-left {
+  border-top: 12.5px solid transparent;
+  border-right: 25px solid #972727;
+  border-bottom: 12.5px solid transparent;
+  height: 0;
+  margin: auto;
+  width: 0;
+}
+
+#triangle-right {
+  border-top: 12.5px solid transparent;
+  border-left: 25px solid #972727;
+  border-bottom: 12.5px solid transparent;
+  height: 0;
+  margin: auto;
+  width: 0;
+}
+
+#vanMain {
+  background-color: black;
+}
+
+#vanMain .contact {
+  text-decoration: none;
+}
+
+#vanMain .contact a,
+#vanMain .contact a:visited {
+  color: #972727;
+  margin: 10px;
+}
+
+#vanMain .contact a:hover {
+  color: #ffd700;
+}
+
+#vanMain .container {
+  background-image: url("../images/background.jpg");
+  border-radius: 5px;
+  color: white;
+  font-size: 1.4em;
+}
+
+#vanMain a,
+#vanMain a:visited,
+#vanMain a:hover {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+#vanMain h2 {
+  background: #972727;
+  background: linear-gradient(to top, #832222, #972727);
+  border-top: 1px solid #6e1d1d;
+  border-radius: 8px;
+  box-shadow: rgba(0,0,0,1) 0 1px 0;
+  color: white;
+  display: inline-block;
+  font-size: 2.0em;
+  font-family: 'Buxton Sketch', serif;
+  margin: 10px auto 10px auto;
+  overflow: hidden;
+  padding: 1px 10px;
+  position: relative;
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+#vanMain h2:before {
+  background-image: linear-gradient(135deg, rgba(255,255,255,0), rgba(255,255,255,0.6), rgba(255,255,255,0));
+  content: "";
+  height: 200%;
+  left: -225%;
+  position: absolute;
+  top: -200%;
+  transition: all 0.5s ease-out;
+  width: 200%;
+}
+
+#vanMain h2:hover:before,
+#vanMain h2:focus:before {
+  left: 200%;
+  top: 200%;
+}
+
+#vanMain h2:active:before {
+  opacity: 0;
+}
+
+#vanMain header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#vanMain footer {
+  text-align: center;
+}
+
+#vanMain main {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#vanMain p {
+  font-size: 1.4em;
+  margin: 5px 0;
+  text-decoration: underline;
+}
